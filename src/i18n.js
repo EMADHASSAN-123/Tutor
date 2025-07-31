@@ -287,7 +287,9 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    
     resources,
+    lng: 'en', // Default language
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
