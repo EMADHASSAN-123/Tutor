@@ -49,7 +49,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer-new">
+    <footer className="footer-new" id='contact'>
       {/* Main Footer Content */}
       <div className="footer-main">
         <div className="container">

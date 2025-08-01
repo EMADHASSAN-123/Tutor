@@ -30,9 +30,10 @@ const Navbar = () => {
             </motion.div>
           </div>
           
+
           <div className="nav-links">
             <a href="#home" className="nav-link">{t('home')}</a>
-            <a href="#about" className="nav-link">{t('about')}</a>
+            <a href="#home" className="nav-link">{t('about')}</a>
             <a href="#services" className="nav-link">{t('services')}</a>
             <a href="#testimonials" className="nav-link">{t('testimonials')}</a>
             <a href="#contact" className="nav-link">{t('contact')}</a>
