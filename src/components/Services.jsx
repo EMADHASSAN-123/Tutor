@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-
+import WhatsAppButton from './WhatsAppButton';
 const Services = () => {
   const { t } = useTranslation();
   const [activeService, setActiveService] = useState(null);
@@ -374,8 +374,8 @@ const Services = () => {
                           initial={{ opacity: 0, y: 20 }}
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.4 }}
-                        >
-                          <button 
+                        > 
+                          {/* <button 
                             className="service-cta-new"
                             style={{ 
                               background: `linear-gradient(135deg, ${service.color}, ${service.color}dd)`,
@@ -383,7 +383,13 @@ const Services = () => {
                             }}
                           >
                             {t('services.inquire')}
-                          </button>
+                          </button> */}
+                          <WhatsAppButton 
+                            message={`مرحبًا، أرغب في الاستفسار عن خدمة ${service.title}`}
+                            color={service.color}
+                          >
+                            {t('services.inquire')}
+                          </WhatsAppButton>
                         </motion.div>
                       </div>
                     </>
