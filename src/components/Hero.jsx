@@ -32,18 +32,7 @@ const Hero = () => {
       description: t('hero.feature2.desc', 'Learn from certified native speakers'),
       color: '#10B981'
     },
-    // {
-    //   icon: '📈',
-    //   title: t('hero.feature3', 'Proven Results'),
-    //   description: t('hero.feature3.desc', 'Track progress with detailed analytics'),
-    //   color: '#8B5CF6'
-    // },
-    // {
-    //   icon: '🎓',
-    //   title: t('hero.feature4', 'Certification Ready'),
-    //   description: t('hero.feature4.desc', 'Prepare for IELTS, TOEFL, and more'),
-    //   color: '#F59E0B'
-    // }
+    
   ];
 
   // Enhanced educational statistics
@@ -51,7 +40,6 @@ const Hero = () => {
     { number: '400+', label: t('hero.stat1', 'Happy Students'), icon: '👨‍🎓' },
     { number: '98%', label: t('hero.stat2', 'Success Rate'), icon: '📊' },
     { number: '7+', label: t('hero.stat3', 'Years Experience'), icon: '⏱️' },
-    // { number: '25+', label: t('hero.stat4', 'Countries'), icon: '🌍' }
   ];
 
   // Educational quotes rotation
