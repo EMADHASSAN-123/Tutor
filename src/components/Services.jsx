@@ -141,6 +141,7 @@ const Services = () => {
     }
   };
 
+  
   const modalVariants = {
     hidden: {
       opacity: 0,

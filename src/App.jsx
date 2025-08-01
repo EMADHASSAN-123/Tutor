@@ -12,6 +12,7 @@ function App() {
   const { i18n } = useTranslation();
   const [isLoading, setIsLoading] = useState(true);
 
+  
   useEffect(() => {
     // Set the html dir attribute based on language
     document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';

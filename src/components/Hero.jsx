@@ -392,7 +392,11 @@ const Hero = () => {
                   whileTap={{ scale: 0.95 }}
                 >
                   {/* <span className="button-icon">🚀</span> */}
-                  <span>{t('hero.cta', 'Start Learning Today')}</span>
+                    <a href="https://wa.me/+966575101706" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    {t('hero.cta', 'Start Learning Today')}
+                    </a>
+                  
+
                   <motion.span 
                     className="button-arrow"
                     animate={{ x: [0, 5, 0] }}
