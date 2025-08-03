@@ -18,6 +18,32 @@ const Services = () => {
   // Service data with enhanced structure
   const services = [
     {
+      id: 'private-tutor',
+      title: t('services.private_tutor'),
+      icon: '👩‍🏫',
+      gradient: 'from-pink-500 to-pink-600',
+      color: '#EC4899',
+      description: t('services.private_tutor.description'),
+      features: [
+        t('services.private_tutor.feature1'),
+        t('services.private_tutor.feature2'),
+        t('services.private_tutor.feature3')
+      ]
+    },
+    {
+      id: 'foundation-teacher',
+      title: t('services.foundation_teacher'),
+      icon: '🧩',
+      gradient: 'from-yellow-500 to-yellow-600',
+      color: '#F59E0B',
+      description: t('services.foundation_teacher.description'),
+      features: [
+      t('services.foundation_teacher.feature1'),
+      t('services.foundation_teacher.feature2'),
+      t('services.foundation_teacher.feature3')
+    ]
+    },
+    {
     id: 'assessment',
     title: t('services.assessment'),
     icon: '📊',

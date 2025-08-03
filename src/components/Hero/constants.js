@@ -25,7 +25,7 @@ export const educationalWords = {
 export const stats = [
   { number: '400+', labelKey: 'hero.stat1', labelDefault: 'Happy Students', icon: '👨‍🎓' },
   { number: '98%', labelKey: 'hero.stat2', labelDefault: 'Success Rate', icon: '📊' },
-  { number: '7+', labelKey: 'hero.stat3', labelDefault: 'Years Experience', icon: '⏱️' }
+  { number: '10+', labelKey: 'hero.stat3', labelDefault: 'Years Experience', icon: '⏱️' }
 ];
 
 export const educationalQuotes = {

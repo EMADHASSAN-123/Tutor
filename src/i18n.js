@@ -54,6 +54,18 @@ const resources = {
       "services.learn_more": "Learn More",
       "services.features": "Key Features",
       
+      "services.private_tutor": "Private Tutoring",
+      "services.private_tutor.description": "Customized one-on-one lessons for primary and middle school students in English, Arabic, Math, and Science. Taught in Arabic or English based on the student's preference. Simple explanations, consistent follow-up, and guaranteed results.",
+      "services.private_tutor.feature1": "Covers core subjects: English, Arabic, Math, and Science",
+      "services.private_tutor.feature2": "Teaching language is flexible: Arabic or English",
+      "services.private_tutor.feature3": "Simplified lessons, regular assessments, and clear progress tracking",
+
+      "services.foundation_teacher": "Foundation Tutor",
+      "services.foundation_teacher.description": "Solid foundation in English and Arabic for beginners. From zero to mastery with clear explanations, close follow-up, and guaranteed results.",
+      "services.foundation_teacher.feature1": "Strong foundation in English and Arabic from scratch",
+      "services.foundation_teacher.feature2": "Simple teaching style with consistent support",
+      "services.foundation_teacher.feature3": "Step-by-step progress tracking and guaranteed outcomes",
+
       "services.assessment": "Comprehensive Language Assessment",
       "services.assessment.description": "A professional session to accurately assess your current English level, followed by a personalized learning plan tailored to your goals.",
       "services.assessment.feature1": "In-depth evaluation across all four language skills",
@@ -179,6 +191,19 @@ const resources = {
       "services.learn_more": "اعرف المزيد",
       "services.features": "المميزات الرئيسية",
       
+      "services.private_tutor": "معلمة خصوصية",
+      "services.private_tutor.description": "دروس فردية مخصصة لطلاب المرحلتين الابتدائية والمتوسطة في اللغة الإنجليزية، اللغة العربية، الرياضيات، والعلوم. تُقدم باللغة العربية أو الإنجليزية حسب رغبة الطالب. شرح مبسط، متابعة مستمرة، ونتائج مضمونة.",
+      "services.private_tutor.feature1": "تشمل المواد الأساسية: الإنجليزية، العربية، الرياضيات، والعلوم",
+      "services.private_tutor.feature2": "مرونة في لغة التدريس: عربي أو إنجليزي",
+      "services.private_tutor.feature3": "دروس مبسطة، تقييمات منتظمة، ومتابعة دقيقة للتقدم",
+
+      
+      "services.foundation_teacher": "معلمة تأسيس",
+      "services.foundation_teacher.description": "تأسيس قوي في اللغة الإنجليزية واللغة العربية للمبتدئين. من الصفر حتى الإتقان، مع شرح مبسط، متابعة دقيقة، ونتائج مضمونة.",
+      "services.foundation_teacher.feature1": "تأسيس شامل في الإنجليزية والعربية من الصفر",
+      "services.foundation_teacher.feature2": "أسلوب تعليمي مبسط ودعم مستمر",
+      "services.foundation_teacher.feature3": "متابعة دقيقة للتقدم وضمان تحقيق النتائج",
+
       "services.assessment": "التقييم الشامل للغة",
       "services.assessment.description": "جلسة تقييم احترافية لقياس مستواك الحالي في اللغة الإنجليزية بدقة، مع تقديم خطة تعلم مخصصة تناسب احتياجاتك.",
       "services.assessment.feature1": " تحليل مفصل لأدائك في المهارات الأربع ",
