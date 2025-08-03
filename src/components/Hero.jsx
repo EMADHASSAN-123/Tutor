@@ -110,7 +110,7 @@ const Hero = () => {
         
 
           {/* Floating Letters */}
-          {['A', 'B', 'C', 'D', 'Grammer', 'F', 'G', 'H'].map((letter, i) => (
+          {['A', 'B', 'C', 'D', 'G', 'F', 'G', 'H'].map((letter, i) => (
             <motion.div
               key={`letter-${i}`}
               className="floating-letter"

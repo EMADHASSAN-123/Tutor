@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const HeroBackground = ({ mousePosition }) => {
   const [floatingElements] = useState({
-    letters: ['A', 'B', 'C', 'D', 'Grammer', 'F', 'G', 'H'],
+    letters: ['A', 'B', 'C', 'D', 'G', 'F', 'G', 'H'],
     symbols: ['?', '!', '.', ',', ';', ':', '"', "'"],
     icons: ['🎓', '📖', '✏️', '📝', '💡', '🌟', '🎯'],
     words: ['English', 'Grammar', 'Vocabulary', 'Speaking', 'Writing', 'Listening']
